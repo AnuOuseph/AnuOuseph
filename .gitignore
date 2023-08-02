@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 .eslintrc.cjs
-public
 
 # Editor directories and files
 .vscode/*
