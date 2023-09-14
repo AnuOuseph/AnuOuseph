@@ -34,6 +34,29 @@ function Projects() {
             </div>
         </div>
 
+        <div className='md:flex md:items-center mt-4'>
+            <div className='pr-4'>
+                <img className='md:w-[31rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../ixia.jpg" alt="" />
+            </div>
+            <div className='md:w-96 px-4 py-6 md:py-0'>
+                <p className='text-lg font-bold'>Ixia | Social Media</p>
+                <p className='text-sm text-gray-800'>Ixia is a social media website design using react and scss, it allows users to upload images and make friends. It is a responsive design with darkmode functionality.  </p>
+                <p className='text-sm pt-4'><b>Tech Used </b>| React.js, Scss</p>
+                <div className='flex items-center pt-4'>
+                    <div className='flex items-center pr-4'>
+                        <p className='pr-1'>Code</p>
+                        <a href="https://github.com/AnuOuseph/Social_Media_Application" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon className='py-2 ' icon={['fab', 'github']} size="lg" /></a>
+                    </div>
+                    <div className='flex items-center pr-4'>
+                        <p className='pr-1'>Live Demo </p>
+                        <a href="https://ixia.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div className='md:flex md:items-center mt-8'>
             <div className='pr-4'>
                 <img className='md:w-[31rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../netflix.jpg" alt="" />
