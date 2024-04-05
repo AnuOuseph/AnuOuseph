@@ -69,7 +69,7 @@ function Projects() {
             <div className='md:w-96 px-4 py-6 md:py-0'>
                 <p className='text-lg font-bold'>Ixia | Social Media</p>
                 <p className='text-sm text-gray-800'>Ixia is a social media website design using react and scss, it allows users to upload images and make friends. It is a responsive design with darkmode functionality.  </p>
-                <p className='text-sm pt-4'><b>Tech Used </b>| React.js, Scss</p>
+                <p className='text-sm pt-4'><b>Tech Used </b>| React.js, Scss </p>
                 <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Vercel </p>
                 <div className='flex items-center pt-4'>
                     <div className='flex items-center pr-4'>
@@ -94,7 +94,7 @@ function Projects() {
                 <p className='text-lg font-bold'>Netflix | Clone</p>
                 <p className='text-sm text-gray-800'> Netflix Clone using React Js for building the frontend, Axios for making HTTP requests and TMDB API for retrieving movie and TV show data.</p>
                 <p className='text-sm pt-4'><b>Tech Used </b>| React, Bootstrap, TMDB, Axios </p>
-                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Vercel </p>
+                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Vercel</p>
                 <div className='flex items-center pt-4'>
                     <div className='flex items-center pr-4'>
                         <p className='pr-1'>Code</p>
