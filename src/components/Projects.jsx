@@ -43,7 +43,7 @@ function Projects() {
                 <p className='text-lg font-bold'>BizTOX | CRM</p>
                 <p className='text-sm text-gray-800'>A Customer Relationship Management system designed to enhance and streamline interactions with clients, improve communication, and optimize overall customer satisfaction</p>
                 <p className='text-sm pt-4'><b>Tech Used </b>| React Js, Node Js, Express Js, MongoDb, Redux, Axios, Tailwind CSS, Chart Js, JWT, Toastify</p>
-                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Netlify, Backend: Render </p>
+                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Netlify, Backend: Render</p>
                 <p className='text-sm font-bold pt-4'>Demo Account:</p>
                 <p className='text-sm'>Email: <span className='font-medium'>test@gmail.com</span></p>
                 <p className='text-sm'>Password: <span className='font-medium'>123</span></p>
@@ -69,8 +69,8 @@ function Projects() {
             <div className='md:w-96 px-4 py-6 md:py-0'>
                 <p className='text-lg font-bold'>Ixia | Social Media</p>
                 <p className='text-sm text-gray-800'>Ixia is a social media website design using react and scss, it allows users to upload images and make friends. It is a responsive design with darkmode functionality.  </p>
-                <p className='text-sm pt-4'><b>Tech Used </b>| React.js, Scss </p>
-                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Vercel </p>
+                <p className='text-sm pt-4'><b>Tech Used </b>| React.js, Scss</p>
+                <p className='text-sm pt-4'><b>Deployment </b>| Frontend: Vercel</p>
                 <div className='flex items-center pt-4'>
                     <div className='flex items-center pr-4'>
                         <p className='pr-1'>Code</p>
