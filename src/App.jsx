@@ -9,14 +9,19 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { useState } from 'react';
 library.add(fab);
 
 function App() {
  
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
-     <Navbar/>
+     <Navbar isOpen={isOpen} toggleMenu={toggleMenu}/>
      <Home/>
      <About/>
      <Projects/>

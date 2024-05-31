@@ -12,17 +12,17 @@ function Projects() {
     ]
   return (
     <div className='w-full h-auto bg-white flex justify-center py-20'  id='projects'>
-     <div >
-        <p className='text-lg text-orange-600 font-bold md:py-4 py-8 text-start'> SELECTED PROJECTS</p>
+     <div>
+        <p className='text-lg text-orange-600 font-bold md:py-4 py-8 text-center'> SELECTED PROJECTS</p>
         <div className='md:flex md:items-center md:my-5 p-5 border'>
             <div className='pr-4'>
-                <img className='md:w-[26rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../tn.jpg" alt="" />
+                <img className='md:w-[24rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../tn.jpg" alt="" />
             </div>
-            <div className='md:w-[43rem] w-[20rem] px-4 py-6 md:py-0'>
+            <div className='md:w-[36rem] w-[20rem] px-4 py-6 md:py-0'>
                 <div className='flex justify-between items-center py-2'>
                     <p className='text-lg font-bold'>Gemma | E-Commerce</p>
                     <div className='flex items-center md:pr-4'>
-                        <p className='pr-1 font-bold text-sm'>Source Code</p>
+                        <p className='pr-1 font-bold md:text-sm text-xs'>Code</p>
                         <a href="https://github.com/AnuOuseph/Gemma" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className='py-0 text-orange-700' icon={['fab', 'github']} size="lg" /></a>
                     </div>
@@ -35,20 +35,20 @@ function Projects() {
 
         <div className='md:flex md:items-center md:my-5 p-5 border'>
             <div className='pr-4'>
-                <img className='md:w-[26rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../crm.png" alt="" />
+                <img className='md:w-[24rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../hive.png" alt="" />
             </div>
-            <div className='md:w-[43rem] w-[20rem] px-2 py-6 md:py-0'>
+            <div className='md:w-[36rem] w-[20rem] px-2 py-6 md:py-0'>
                 <div className='flex justify-between items-center py-2'>
                     <p className='text-lg font-bold'>Hive | CRM</p>
                     <div className='flex items-center'>
                         <div className='flex items-center pr-4'>
-                            <p className='pr-1 font-bold text-sm'>Source Code</p>
-                            <a href="https://github.com/AnuOuseph/TN_Dashboard" target="_blank" rel="noopener noreferrer">
+                            <p className='pr-1 font-bold md:text-sm text-xs'>Code</p>
+                            <a href="https://github.com/AnuOuseph/HIVE_CRM" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='py-0 text-orange-700' icon={['fab', 'github']} size="lg" /></a>
                         </div>
                         <div className='flex items-center md:pr-4'>
-                            <p className='pr-1 font-bold text-sm'>Live Demo </p>
-                            <a href="https://biz-crm-ao.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <p className='pr-1 font-bold md:text-sm text-xs'>Live</p>
+                            <a href="https://hive-crm-self.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='text-orange-700' icon={faArrowUpRightFromSquare} /></a>
                         </div>
                     </div>
@@ -61,19 +61,19 @@ function Projects() {
 
         <div className='md:flex md:items-center md:my-5 p-5 border'>
             <div className='pr-4'>
-                <img className='md:w-[26rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../ixia.jpg" alt="" />
+                <img className='md:w-[24rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../ixia.jpg" alt="" />
             </div>
-            <div className='md:w-[43rem] w-[20rem] px-4 py-6 md:py-0'>
+            <div className='md:w-[36rem] w-[20rem] px-4 py-6 md:py-0'>
                 <div className='flex justify-between items-center py-2'>
                     <p className='text-lg font-bold'>Ixia | Social Media</p>
                     <div className='flex items-center'>
                         <div className='flex items-center pr-4'>
-                            <p className='pr-1 font-bold text-sm'> Source Code</p>
+                            <p className='pr-1 font-bold md:text-sm text-xs'>Code</p>
                             <a href="https://github.com/AnuOuseph/Social_Media_Application" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='py-0 text-orange-700' icon={['fab', 'github']} size="lg" /></a>
                         </div>
                         <div className='flex items-center md:pr-4'>
-                            <p className='pr-1 font-bold text-sm'>Live Demo </p>
+                            <p className='pr-1 font-bold md:text-sm text-xs'>Live</p>
                             <a href="https://ixia.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='text-orange-700' icon={faArrowUpRightFromSquare} /></a>
                         </div>
@@ -84,34 +84,31 @@ function Projects() {
                 <p className='text-sm pt-2'><b>Deployment </b>| Frontend: Vercel</p>
             </div>
         </div>
-
         <div className='md:flex md:items-center md:my-5 p-5 border'>
             <div className='pr-4'>
-                <img className='md:w-[26rem] w-[18rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../netflix.jpg" alt="" />
+                <img className='md:w-[24rem] w-[20rem] mx-2 border border-black border-b-4 border-r-4 ' src="../../netflix.jpg" alt="" />
             </div>
-            <div className='w-[43rem] w-[18rem] px-2 py-6 md:py-0'>
+            <div className='md:w-[36rem] w-[20rem] px-4 py-6 md:py-0'>
                 <div className='flex justify-between items-center py-2'>
                     <p className='text-lg font-bold'>Netflix | Clone</p>
                     <div className='flex items-center'>
                         <div className='flex items-center pr-4'>
-                            <p className='pr-1 font-bold text-sm'>Source Code</p>
+                            <p className='pr-1 font-bold md:text-sm text-xs'> Code</p>
                             <a href="https://github.com/AnuOuseph/Netflix_Clone" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='py-0 text-orange-700' icon={['fab', 'github']} size="lg" /></a>
                         </div>
                         <div className='flex items-center md:pr-4'>
-                            <p className='pr-1 font-bold text-sm'>Live Demo </p>
+                            <p className='pr-1 font-bold md:text-sm text-xs'>Live</p>
                             <a href="https://netflix-teal-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon className='text-orange-700' icon={faArrowUpRightFromSquare} /></a>
                         </div>
                     </div>
                 </div>
-                <p className='text-sm text-gray-800'> Netflix Clone using React Js for building the frontend, Axios for making HTTP requests and TMDB API for retrieving movie and TV show data.</p>
-                <p className='text-sm pt-2'><b>Tech Used </b>| React.js, Bootstrap, TMDB, Axios </p>
+                <p className='text-sm text-gray-800'>Netflix Clone using React Js for building the frontend, Axios for making HTTP requests and TMDB API for retrieving movie and TV show data. </p>
+                <p className='text-sm pt-2'><b>Tech Used </b>| React.js, Bootstrap, TMDB, Axios</p>
                 <p className='text-sm pt-2'><b>Deployment </b>| Frontend: Vercel</p>
             </div>
         </div>
-
-        
      </div>
     </div>
   )

@@ -5,7 +5,7 @@ import { faLocationDot, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   return (
-    <div className='w-full h-auto py-20 bg-white flex items-center justify-center' id='contact'>
+    <div className='w-full h-auto md:py-20 pb-20 bg-white flex items-center justify-center' id='contact'>
         <div>
             <p className='text-md text-center text-orange-600 font-bold py-6'>CONTACT</p>
             <div className='md:flex'>

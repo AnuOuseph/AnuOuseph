@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import {Link} from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faDownload, faXmark} from '@fortawesome/free-solid-svg-icons';
 
-function Navbar() {
+function Navbar({isOpen, toggleMenu}) {
   const URL = "http://localhost:5173/Anu-Ouseph.pdf"
     const downloadFile = (url)=>{
       fetch(url).then(response=>response.blob())
@@ -19,10 +20,7 @@ function Navbar() {
         aTag.remove()
         })
       }
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  
   return (
     <div className='w-full fixed top-0 left-0 bg-white overflow-x-hidden flex justify-between py-4 px-10'>
       <div className='flex items-center'>
@@ -32,11 +30,10 @@ function Navbar() {
         <a href="https://www.linkedin.com/in/anuouseph/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className='py-2 px-4' icon={['fab', 'linkedin']}  size="md" /> 
         </a>
-        <a href="https://www.linkedin.com/in/anuouseph/" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/anu_ouseph" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon className='py-2 px-0' icon={['fab', 'twitter']}  size="md" /> 
         </a>
         <button onClick={()=>{downloadFile(URL)}} className='btn'><FontAwesomeIcon className='py-2 px-4' icon={faDownload}  size="sm" /></button>
-        {/* <p className='text-sm font-medium'>Resume.</p>  */}
       </div>
       <button className="bg-white px-4 py-2 rounded" onClick={toggleMenu}>
         <FontAwesomeIcon icon={faBars} />
@@ -55,7 +52,7 @@ function Navbar() {
               offset={-70} 
               duration={500} 
             >
-              <button>Home</button>
+              <button onClick={toggleMenu}>Home</button>
           </Link>
             </li>
             <li className='px-4 py-4 text-xl md:text-3xl'><Link activeClass="active"
@@ -65,7 +62,7 @@ function Navbar() {
               offset={-70} 
               duration={500} 
             >
-              <button>About</button>
+              <button onClick={toggleMenu}>About</button>
               </Link>
             </li>
             <li className='px-4 py-4 text-xl md:text-3xl'><Link activeClass="active"
@@ -75,7 +72,7 @@ function Navbar() {
               offset={-70} 
               duration={500} 
             >
-              <button>Projects</button>
+              <button onClick={toggleMenu}>Projects</button>
               </Link>
             </li>
             <li className='px-4 py-4 text-xl md:text-3xl'><Link activeClass="active"
@@ -85,7 +82,7 @@ function Navbar() {
               offset={-70} 
               duration={500} 
             >
-              <button>Contact</button>
+              <button onClick={toggleMenu}>Contact</button>
               </Link>
             </li>
           </ul>

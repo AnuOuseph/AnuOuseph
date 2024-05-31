@@ -10,9 +10,8 @@ function About() {
             <img className='rounded-2xl mb-6 md:mb-0' src="../../ME.jpg" alt="" />
         </div>
         <div className='md:w-1/3 text-justify px-4'>
-            <p className='text-md text-center md:text-start text-orange-600 font-bold pb-2'>ABOUT ME</p>
-            {/* <p className='text-lg text-center md:text-start pb-2'>A dedicated Full Stack Developer</p> */}
-            <p className='text-sm text-gray-600'>As a skilled Full stack developer with a passion for creating efficient and user-friendly web applications. With expertise in MongoDB, Express.js, React, and Node.js, I specialize in building end-to-end solutions that deliver seamless user experiences. I thrive in collaborative environments and approach challenges with a strong problem-solving mindset. My dedication to staying updated with industry trends ensures that my work aligns with the latest best practices. Let's collaborate and bring your ideas to life!</p>
+            <p className='text-md text-center md:text-start text-orange-600 font-bold pb-2 px-2'>ABOUT ME</p>
+            <p className='text-sm text-gray-600 p-2'>As a skilled Full stack developer with a passion for creating efficient and user-friendly web applications. With expertise in MongoDB, Express.js, React, and Node.js, I specialize in building end-to-end solutions that deliver seamless user experiences. I thrive in collaborative environments and approach challenges with a strong problem-solving mindset. My dedication to staying updated with industry trends ensures that my work aligns with the latest best practices. Let's collaborate and bring your ideas to life!</p>
         </div>
       </div>
     </div>
